@@ -74,6 +74,7 @@ support_abis = {
     "arm64-v8a": "aarch64-linux-android",
     "x86_64": "x86_64-linux-android",
     "riscv64": "riscv64-linux-android",
+    "x86_64": "x86_64-windows-gnu",
 }
 default_targets = {"magisk", "magiskinit", "magiskboot", "magiskpolicy"}
 support_targets = default_targets | {"resetprop"}
